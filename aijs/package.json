@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "ollama": "^0.6.3"
+  },
+  "name": "aijs",
+  "version": "1.0.0",
+  "main": "ai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node --watch server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
