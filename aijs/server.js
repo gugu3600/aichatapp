@@ -9,6 +9,5 @@ app.use(cors());
 app.use("/api", route);
 
 app.listen(8000, function () {
-
      console.log("App is running in port 8000")
 })
